@@ -1,8 +1,8 @@
 const reversinggear=(n)=>{
     let rev=0
     while(n!==0){
-        rev=rev*10+n%10
-        n=Math.floor(n/10) /// this get remove the last digit from series
+        rev=rev*10+n%10//this get the last  digit
+        n=Math.floor(n/10) /// this  remove the last digit from series
     }
     return rev
 }
